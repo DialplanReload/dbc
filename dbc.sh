@@ -15,7 +15,7 @@ apt-get update
 
 # Installing basic packages
 
-apt-get install -y  htop mtr vim tcpdump sed
+apt-get install -y  htop mtr vim tcpdump sed git
 
 # Adjust VIM configs
 sed -i 's/^\"syntax on/syntax on/' /etc/vim/vimrc
